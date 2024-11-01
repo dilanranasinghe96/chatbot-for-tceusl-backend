@@ -1,0 +1,1284 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you with your enrollment inquiry?", "Hi there! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye"],
+      "responses": ["Goodbye! Feel free to ask if you have more questions.", "Bye! Have a great day!"]
+    },
+    {
+      "tag": "description_trincomalee_campus",
+      "patterns": [
+        "Give description about trincomalee campus",
+        "Trincomalee campus"
+    ],
+      "responses": ["The Trincomalee Campus of Eastern University, Sri Lanka, was officially established on June 15, 2001. Originally located at No. 315, Dockyard Road, Trincomalee, the campus is now situated in Konesapuri, approximately 10 km north of Trincomalee. The campus is surrounded by the beautiful coastline and tranquil rural landscape of the region.2 kilometers to beach side from campus area.\n\nThe campus offers multiple faculties, including:\n1.Faculty of Applied Science:\n*Bachelor of Computer Science (3 years)\n*Bachelor of Science in Applied Physics and Electronics (3 years)\n2.Faculty of Communication and Business Studies:\n*Bachelor of Arts in Languages and Communication Studies*Bachelor of Business Management\n2.Faculty of Siddha Medicine:\n*Bachelor of Siddha Medicine and Surgery (BSMS) (5 years, including a one-year internship)\n\nThe campus aims to provide high-quality education in various disciplines, contributing to both the local community and the broader educational goals of Sri Lanka. Significant improvements have been made to the infrastructure, including new student hostels, staff quarters, and academic facilities, ensuring a conducive learning atmosphere.\n\nThe Trincomalee Campus continues to grow and evolve, offering degree programs that are in demand and aligned with the economic and technological advancements of the country."]
+    },
+    {
+      "tag": "computer_science_degree",
+      "patterns": [
+        "Tell me about the Computer Science degree.",
+        "What is the Computer Science program?",
+        "Can you describe the B.Sc. in Computer Science?",
+        "What are the details of the Computer Science degree?",
+        "Give me information about the Computer Science degree."
+      ],
+      "responses": [
+        "The Bachelor of Computer Science (B.Sc.) is a 3-year degree program (6 semesters) that focuses on computational theory, programming, data structures, algorithms, and system development. Core subjects include Data Structures & Algorithms, Database Management Systems, Systems & Network Administration, Web Development, and Programming Languages. Graduates will acquire skills in software design and development, problem-solving using computational techniques, and computer systems knowledge, preparing them for careers as software engineers, system analysts, and IT consultants."
+      ]
+    },
+    {
+      "tag": "physical_science_degree",
+      "patterns": [
+        "Tell me about the Physical Science degree.",
+        "What is the Applied Physics and Electronics program?",
+        "Can you describe the B.Sc. in Physical Science?",
+        "What are the details of the Physical Science degree?",
+        "Give me information about the Applied Physics and Electronics degree."
+      ],
+      "responses": [
+        "The Bachelor of Science in Applied Physics and Electronics (B.Sc.) is a 3-year degree program (6 semesters) that covers the principles of physics and electronics. It focuses on applying scientific knowledge to technological challenges, with core subjects such as General Physics, Electronics, Circuit Analysis, Communication Systems, and Optical Systems. Graduates will be prepared to work in industries like telecommunications, electronics, and technology development, as well as contribute to scientific research."
+      ]
+    },
+    {
+      "tag": "languages_communication_degree",
+      "patterns": [
+        "Tell me about the Languages and Communication degree.",
+        "What is the Languages and Communication Studies program?",
+        "Can you describe the B.A. in Languages and Communication?",
+        "What are the details of the Languages and Communication degree?",
+        "Give me information about the Languages and Communication degree."
+      ],
+      "responses": [
+        "The Bachelor of Arts in Languages and Communication Studies is a 3-year degree program (6 semesters) designed to develop skills in linguistics, media studies, and effective communication. Core subjects include Linguistics, Media Studies, Communication Theories, and Language Proficiency in English and local languages. Graduates will be prepared for careers in journalism, public relations, teaching, and media management, equipped with strong communication and critical thinking skills."
+      ]
+    },
+    {
+      "tag": "business_management_degree",
+      "patterns": [
+        "Tell me about the Business Management degree.",
+        "What is the Business Management program?",
+        "Can you describe the BBM degree?",
+        "What are the details of the Business Management degree?",
+        "Give me information about the Business Management degree."
+      ],
+      "responses": [
+        "The Bachelor of Business Management (BBM) is a 3-year degree program (6 semesters) focusing on management, economics, accounting, marketing, and business strategy. Core subjects include Business Economics, Marketing Management, Financial Accounting, Human Resource Management, and Business Strategy. Graduates will be able to analyze business problems, manage resources efficiently, and develop strategic business plans, preparing them for roles such as business analysts, managers, and entrepreneurs."
+      ]
+    },
+    {
+      "tag": "siddha_medicine_degree",
+      "patterns": [
+        "Tell me about the Siddha Medicine degree.",
+        "What is the BSMS program?",
+        "Can you describe the Siddha Medicine degree?",
+        "What are the details of the Siddha Medicine degree?",
+        "Give me information about the Siddha Medicine degree."
+      ],
+      "responses": [
+        "The Bachelor of Siddha Medicine and Surgery (BSMS) is a 5-year degree program (10 semesters) with a one-year internship. It focuses on the traditional Siddha system of medicine, covering subjects such as Anatomy, Physiology, Biochemistry, Siddha Pharmacology, Community Medicine, Forensic Medicine, Gynecology, Pediatrics, and Surgery. Graduates will be able to diagnose and treat patients using Siddha medicine, conduct research, and contribute to Indigenous medical practices."
+      ]
+    },
+    {
+      "tag": "degree_programmes_applied_science",
+      "patterns": [
+        "What are the degree programs in the Faculty of Applied Science?",
+        "Which degrees are offered by the Faculty of Applied Science?",
+        "Can you list the degree programs in the Applied Science faculty?",
+        "What courses are available under the Faculty of Applied Science?",
+        "Courses in applied science faculty",
+        "Degree programmes in FAS"
+      ],
+      "responses": [
+        "The Faculty of Applied Science at Trincomalee Campus offers the following degree programs:\n1. Bachelor of Computer Science (3 years)\n2. Bachelor of Science in Applied Physics and Electronics (3 years)."
+      ]
+    },
+    {
+      "tag": "computer_science_degree_duration",
+      "patterns": [
+        "What is the duration of the Computer Science degree?",
+        "How long is the Bachelor of Computer Science program?",
+        "How many years does it take to complete the Computer Science degree?",
+        "What is the length of the Computer Science degree program?",
+        "cs degree duration",
+        "How many years in cs degree",
+        "cs course duration"
+      ],
+      "responses": [
+        "The duration of the Bachelor of Computer Science degree at Trincomalee Campus is 3 years."
+      ]
+    },
+    {
+      "tag": "physical_science_degree_duration",
+      "patterns": [
+        "What is the duration of the Physical Science degree?",
+        "How long is the Bachelor of Science in Applied Physics and Electronics?",
+        "How many years does it take to complete the Physical Science degree?",
+        "What is the length of the Applied Physics and Electronics degree program?",
+        "ps degree duration",
+        "How many years in ps degree",
+        "ps course duration"
+      ],
+      "responses": [
+        "The Bachelor of Science in Applied Physics and Electronics degree program has a duration of 3 years."
+      ]
+    },
+    {
+      "tag": "computer_science_semesters",
+      "patterns": [
+        "How many semesters are there in the Computer Science degree?",
+        "What is the number of semesters for the Computer Science program?",
+        "How many semesters does the Computer Science course have?",
+        "What is the semester count in the Computer Science degree?",
+        "How many semesters in cs degree programme",
+        "How many semeseters in cs"
+      ],
+      "responses": [
+        "The Bachelor of Computer Science degree consists of 6 semesters spread across 3 academic years."
+      ]
+    },
+    {
+      "tag": "physical_science_semesters",
+      "patterns": [
+        "How many semesters are there in the Physical Science degree?",
+        "What is the number of semesters for the Applied Physics program?",
+        "How many semesters does the Applied Physics and Electronics course have?",
+        "What is the semester count in the Applied Physics degree?",
+        "How many semesters in ps degree programme",
+        "How many semeseters in ps"
+      ],
+      "responses": [
+        "The Bachelor of Science in Applied Physics and Electronics degree consists of 6 semesters over 3 academic years."
+      ]
+    },
+    {
+      "tag": "dean_applied_science",
+      "patterns": [
+        "Who is the Dean of the Faculty of Applied Science?",
+        "Can you tell me the name of the Dean of Applied Science?",
+        "Who is in charge of the Faculty of Applied Science?",
+        "Who leads the Faculty of Applied Science?"
+      ],
+      "responses": [
+        "The Dean of the Faculty of Applied Science is Mr. S. Loheeswaran.(B.Sc. in Science)"
+      ]
+    },
+    {
+      "tag": "vision_mission_cs",
+      "patterns": [
+        "What is the vision of the Department of Computer Science?",
+        "Can you tell me the mission of the Computer Science department?",
+        "What is the vision and mission statement of the CS department?",
+        "What are the goals of the Department of Computer Science?"
+      ],
+      "responses": [
+        "The vision of the Department of Computer Science is to be a world-recognized educational and research institute with academic excellence and human values. The mission is to create, transform, and disseminate knowledge through teaching, learning, and research to meet the needs of stakeholders and face new challenges while upholding human values for sustainable development."
+      ]
+    },
+    {
+      "tag": "head_department_cs",
+      "patterns": [
+        "Who is the Head of the Department of Computer Science?",
+        "Can you tell me the name of the Head of the Computer Science department?",
+        "Who is in charge of the Computer Science department?",
+        "Who is the current head of the Computer Science department?",
+        "Head of the cs department"
+      ],
+      "responses": [
+        "The Head of the Department of Computer Science is Mr. S. Thadchanamoorthy.(MPhil in Computer Science , M.Sc in Computer Science)"
+      ]
+    },
+    {
+      "tag": "lecturers_department_cs",
+      "patterns": [
+        "Who are the lecturers in the Department of Computer Science?",
+        "Can you provide the list of faculty members in the CS department?",
+        "Who are the professors in the Computer Science department?",
+        "Tell me about the staff members in the Computer Science department.",
+        "Lecturers in computer science department",
+        "Lecturers in cs department",
+        "Academic Staff of computer science",
+        "Academic Staff of cs"
+
+      ],
+      "responses": [
+        "The lecturers in the Department of Computer Science include:\n1. Ms. K. Khedika - M.Sc in Computer Science (SAU, India), B.Sc in Information Technology.\n2. Ms. Jebakanth Janani - B.Sc (Hons) in Computer Science (UoJ).\n3. Mrs. Tharmini Kiriharan - B.Sc (Hons) in Computer Science (UoJ).\n4. Ms. T. Thanushya - M.Sc in Computer Science (UoP), B.Sc (Spl) in Computer Science (VCUJ).\n5. Ms. K. Sefra Sanjika - M.Sc in Computer Science (UoP), B.Sc (Hons) in Information & Communication Technology (VCUJ).\n6. Ms. Y. Kalyani - B.Sc in Computer Science (UoJ).\n7. Mr. Alagiah Suthakaran - M.Sc in Information Technology (UoM), B.Sc in Computer Science (UoJ).\n8. Ms. K. Krishnaraj - M.Sc in Computer Science (SAU, India), B.Sc in Information & Communication Technology (VCUJ).\n9. Ms. S. Priyanka - B.Sc (Spl) in Computer Science (SEUSL).\n10. Ms. S. Disne - B.Sc (Hons) in Computer Science (EUSL).\n11. Ms. J. Janani - B.Sc (Hons) in Computer Science (UoJ).\n12. Ms. K. Tharmini - B.Sc (Hons) in Computer Science (UoJ).\n13. Ms. P. R. Vithusia - B.Sc (Spl) in Computer Science & Technology (UWU)."
+      ]
+    },
+    {
+      "tag": "learning_outcomes_cs",
+      "patterns": [
+        "What are the learning outcomes of the Computer Science degree?",
+        "Can you tell me the expected outcomes of the CS program?",
+        "What skills will I gain from the Computer Science degree?",
+        "What are the intended learning outcomes for Computer Science students?"
+      ],
+      "responses": [
+        "Students graduating from the Bachelor of Science in Computer Science program will be able to use a range of programming languages and tools, understand and analyze precise specifications of algorithms, apply mathematics and logic in software development, and work effectively in teams to build software systems."
+      ]
+    },
+    {
+      "tag": "credits_cs_degree",
+      "patterns": [
+        "How many credits are required for the Computer Science degree?",
+        "What is the total number of credits in the Computer Science program?",
+        "How many credits do I need to graduate in Computer Science?",
+        "What is the credit requirement for the CS degree?"
+      ],
+      "responses": [
+        "Students must complete a minimum of 90 credits during the three years of study to be eligible for the Bachelor of Science in Computer Science degree."
+      ]
+    },
+    {
+      "tag": "student_intake_cs",
+      "patterns": [
+        "What is the annual student intake for the Computer Science department?",
+        "How many students are admitted to the Computer Science program each year?",
+        "What is the number of students enrolled annually in the CS department?",
+        "How many new students join the Computer Science degree program every year?"
+      ],
+      "responses": [
+        "The Department of Computer Science enrolls a minimum of fifty students annually according to the university admission policy adopted by the UGC."
+      ]
+    },
+    {
+      "tag": "course_structure_cs",
+      "patterns": [
+        "What is the course structure of the Computer Science degree?",
+        "Can you provide an outline of the Computer Science program?",
+        "What are the core subjects for the Computer Science degree?",
+        "Tell me about the course modules in the Computer Science program.",
+        "Courses of cs degree",
+        "Subjects in cs degree",
+        "Courses of Computer Science degree",
+        "Subjects in Computer Science degree"
+      ],
+      "responses": [
+        "The Bachelor of Computer Science degree is structured into six semesters over three years. It includes core subjects such as:\nMathematics for Computing, Data Structures & Algorithms\nDatabase Management Systems\nSystems & Network Administration, Servers\nWeb Design\nSystem Analysis\nSoftware engineering techniques.\n"
+      ]
+    },
+    {
+      "tag": "gpa_calculation_cs",
+      "patterns": [
+        "How is GPA calculated in the Computer Science degree?",
+        "What is the formula for GPA calculation in the CS program?",
+        "How do you calculate GPA in the Computer Science degree?",
+        "Can you explain the GPA calculation method for CS students?"
+      ],
+      "responses": [
+        "The GPA is calculated using the formula: GPA = (Sum of (credits × grade point value)) / Total credits. The overall GPA (OGPA) for the degree program is the weighted average of the GPAs for the first, second, and third years of study."
+      ]
+    },
+    {
+      "tag": "minimum_requirements_cs",
+      "patterns": [
+        "What are the minimum requirements for the Computer Science degree?",
+        "What do I need to do to graduate in Computer Science?",
+        "What are the graduation requirements for the CS degree?",
+        "What is required to complete the Computer Science program?"
+      ],
+      "responses": [
+        "To be eligible for the Bachelor of Science in Computer Science degree, students must obtain at least 72 credits with C or better grades, a minimum overall GPA of 2.0, a C grade or better in General English courses, and complete the program within six academic years."
+      ]
+    },
+    {
+      "tag": "award_classes_cs",
+      "patterns": [
+        "How are classes awarded in the Computer Science degree?",
+        "What are the criteria for first class honors in the CS program?",
+        "How can I get a second class in Computer Science?",
+        "What are the class awards for the Computer Science degree?"
+      ],
+      "responses": [
+        "For a First Class, students must obtain a minimum OGPA of 3.70, with A or better grades in at least 36 credits, and complete the degree in three years.\nFor Second Class (Upper Division), the minimum OGPA is 3.30\nfor Second Class (Lower Division), it is 3.00, with similar credit and completion requirements."
+      ]
+    },
+
+      
+    {
+      "tag": "vision_mission_physical_science",
+      "patterns": [
+        "What is the vision of the Department of Physical Science?",
+        "Can you tell me the mission of the Physical Science department?",
+        "What is the vision and mission statement of the Physical Science department?",
+        "What are the goals of the Department of Physical Science?"
+      ],
+      "responses": [
+        "The vision of the Department of Physical Science is the formation of highly knowledgeable graduates to the present world. The mission is to provide highly marketable dynamic graduates through suitable learning environments."
+      ]
+    },
+    {
+      "tag": "head_department_physical_science",
+      "patterns": [
+        "Who is the Head of the Department of Physical Science?",
+        "Can you tell me the name of the Head of the Physical Science department?",
+        "Who is in charge of the Physical Science department?",
+        "Who is the current head of the Physical Science department?",
+        "Head of ps department"
+      ],
+      "responses": [
+        "The Head of the Department of Physical Science is Mr. K. Balashangar.(Bachelor's degree in Science (B.Sc) specialized in Applied Physics and Electronics)"
+      ]
+    },
+    {
+      "tag": "lecturers_department_physical_science",
+      "patterns": [
+        "Who are the lecturers in the Department of Physical Science?",
+        "Can you provide the list of faculty members in the Physical Science department?",
+        "Who are the professors in the Physical Science department?",
+        "Tell me about the staff members in the Physical Science department.",
+        "lecturers in ps department",
+        "Academic Staff in physical science"
+      ],
+      "responses": [
+        "The lecturers in the Department of Physical Science include:\n1. Mr. S. Loheeswaran - Senior Lecturer Gr (II) and Dean/FAS, B.Sc in Science.\n2. Mr. K. Balashangar - Lecturer and Head/DPS, B.Sc in Applied Physics and Electronics.\n3. Mr. S. Kuhanesan - Senior Lecturer Gr(I) (On Contract), B.Sc in Physics, M.Sc in Physics, Ph.D. in Physics.\n4. Mr. S. Uthayaraj - Lecturer (Unconfirmed), B.Sc in Physics.\n5. Mrs. K. Kiruthika - Lecturer (Probationary) (On Study Leave), B.Sc in Applied Physics and Electronics.\n6. Mrs. K. Thenmolie - Lecturer (Probationary) (On Study Leave), B.Sc in Applied Physics and Electronics.\n7. Eng. M. P. M. Suhail - Lecturer (Probationary), B.Sc in Engineering (Electrical and Electronics).\n8. Eng. S. Jeyaram - Lecturer (Probationary), B.Sc in Engineering (Electrical and Electronics).\n9. Mrs. V. Kirusanthy - Lecturer (Probationary), B.Sc in Applied Physics and Electronics.\n10. Mrs. V. Thushyanthini - Lecturer (Probationary), B.Sc in Applied Physics and Electronics."
+      ]
+    },
+    {
+      "tag": "description_physical_science_degree",
+      "patterns": [
+        "Can you describe the Physical Science degree?",
+        "Tell me about the Applied Physics and Electronics degree.",
+        "What is the Physical Science degree program?",
+        "Give a brief overview of the Applied Physics and Electronics degree.",
+        "Information about physical science degree"
+      ],
+      "responses": [
+        "The Bachelor of Science in Applied Physics and Electronics degree program focuses on the application of core principles of physical science to address technological challenges. It provides a strong foundation in fundamental principles of physics, semiconductor devices, optical systems, telecommunications, and computing. The program aims to produce graduates with skills to contribute to the technological and industrial development of Sri Lanka."
+      ]
+    },
+    {
+      "tag": "learning_outcomes_physical_science",
+      "patterns": [
+        "What are the learning outcomes of the Physical Science degree?",
+        "Can you tell me the expected outcomes of the Applied Physics and Electronics program?",
+        "What skills will I gain from the Physical Science degree?",
+        "What are the intended learning outcomes for Physical Science students?"
+      ],
+      "responses": [
+        "Graduates of the Bachelor of Science in Applied Physics and Electronics program will be able to apply wide knowledge of theories and concepts in Physics, semiconductor devices, optical systems, and telecommunications. They will be equipped to solve real-world problems, contribute to industrial and economic development, carry out research projects, and find employment in the high technology sector."
+      ]
+    },
+    {
+      "tag": "credits_physical_science_degree",
+      "patterns": [
+        "How many credits are required for the Physical Science degree?",
+        "What is the total number of credits in the Applied Physics and Electronics program?",
+        "How many credits do I need to graduate in Physical Science?",
+        "What is the credit requirement for the Applied Physics and Electronics degree?"
+      ],
+      "responses": [
+        "Students must complete a total of 90 credits during the three years of study to be eligible for the Bachelor of Science in Applied Physics and Electronics degree."
+      ]
+    },
+    {
+      "tag": "student_intake_physical_science",
+      "patterns": [
+        "What is the annual student intake for the Physical Science department?",
+        "How many students are admitted to the Applied Physics and Electronics program each year?",
+        "What is the number of students enrolled annually in the Physical Science department?",
+        "How many new students join the Applied Physics and Electronics degree program every year?"
+      ],
+      "responses": [
+        "The document does not specify the exact number of annual student intake for the Department of Physical Science. Please contact the department directly for this information."
+      ]
+    },
+    {
+      "tag": "course_structure_physical_science",
+      "patterns": [
+        "What is the course structure of the Physical Science degree?",
+        "Can you provide an outline of the Applied Physics and Electronics program?",
+        "What are the core subjects for the Physical Science degree?",
+        "Tell me about the course modules in the Applied Physics and Electronics program."
+      ],
+      "responses": [
+        "The Bachelor of Science in Applied Physics and Electronics degree is structured into six semesters over three years. It includes core subjects such as General Physics, Laboratory Physics, Classical Mechanics, Analog Electronics, Circuit Analysis, Communication Systems, and Computer Networking."
+      ]
+    },
+    {
+      "tag": "gpa_calculation_physical_science",
+      "patterns": [
+        "How is GPA calculated in the Physical Science degree?",
+        "What is the formula for GPA calculation in the Applied Physics and Electronics program?",
+        "How do you calculate GPA in the Physical Science degree?",
+        "Can you explain the GPA calculation method for Physical Science students?"
+      ],
+      "responses": [
+        "The GPA is calculated using the formula: GPA = (Sum of (credits × grade point value)) / Total credits. The overall GPA (OGPA) for the degree program is the weighted average of the GPAs for the first, second, and third years of study. The minimum grade to pass a course is a GPA of 2.00."
+      ]
+    },
+    {
+      "tag": "minimum_requirements_physical_science",
+      "patterns": [
+        "What are the minimum requirements for the Physical Science degree?",
+        "What do I need to do to graduate in Applied Physics and Electronics?",
+        "What are the graduation requirements for the Physical Science degree?",
+        "What is required to complete the Applied Physics and Electronics program?"
+      ],
+      "responses": [
+        "To be eligible for the Bachelor of Science in Applied Physics and Electronics degree, students must obtain grades of C or better in course units aggregating to 72 credits and D grades or better in the remaining 18 credits. They must also obtain a minimum overall GPA of 2.00, a minimum grade of C in all auxiliary subjects, and complete the degree within six academic years."
+      ]
+    },
+    {
+      "tag": "award_classes_physical_science",
+      "patterns": [
+        "How are classes awarded in the Physical Science degree?",
+        "What are the criteria for first class honors in the Applied Physics and Electronics program?",
+        "How can I get a second class in Physical Science?",
+        "What are the class awards for the Applied Physics and Electronics degree?"
+      ],
+      "responses": [
+        "For a First Class, students must obtain a minimum OGPA of 3.70, with A or better grades in at least 36 credits, and complete the degree in three years.\nFor Second Class (Upper Division), the minimum OGPA is 3.30.\nfor Second Class (Lower Division), it is 3.00, with similar credit and completion requirements."
+      ]
+    },
+    
+    {
+      "tag": "introduction_siddha_medicine",
+      "patterns": [
+        "Can you introduce the Faculty of Siddha Medicine?",
+        "Tell me about the Siddha Medicine faculty.",
+        "What is the Faculty of Siddha Medicine?",
+        "Give a brief introduction to the Siddha Medicine faculty.",
+        "Information about siddha medicine"
+      ],
+      "responses": [
+        "The Faculty of Siddha Medicine at Trincomalee Campus, Eastern University, Sri Lanka, was established to upgrade Siddha Medicine to a higher education level in the Eastern part of Sri Lanka. The Siddha Medicine course comprises 5 years of course work, laboratory work, research work, and clinical training, followed by a one-year internship in a government Indigenous medical hospital."
+      ]
+    },
+    {
+      "tag": "degree_siddha_medicine",
+      "patterns": [
+        "What degree is offered by the Faculty of Siddha Medicine?",
+        "What is the degree program in Siddha Medicine?",
+        "Which degree can I pursue at the Siddha Medicine faculty?",
+        "What is the Siddha Medicine degree?"
+      ],
+      "responses": [
+        "The Faculty of Siddha Medicine offers the Bachelor of Siddha Medicine and Surgery (BSMS) degree. The program is structured into 10 semesters over 5 years, with an additional one-year internship."
+      ]
+    },
+    {
+      "tag": "semesters_siddha_medicine",
+      "patterns": [
+        "How many semesters are there in the Siddha Medicine degree?",
+        "What is the number of semesters in the BSMS program?",
+        "How long is the Siddha Medicine degree in terms of semesters?",
+        "What is the semester count for the Siddha Medicine course?"
+      ],
+      "responses": [
+        "The Bachelor of Siddha Medicine and Surgery (BSMS) degree consists of 10 semesters spread over 5 years."
+      ]
+    },
+    {
+      "tag": "learning_outcomes_siddha_medicine",
+      "patterns": [
+        "What are the learning outcomes of the Siddha Medicine degree?",
+        "Can you tell me the expected outcomes of the BSMS program?",
+        "What skills will I gain from the Siddha Medicine degree?",
+        "What are the intended learning outcomes for Siddha Medicine students?"
+      ],
+      "responses": [
+        "Graduates of the BSMS program will be able to utilize their knowledge and skills in the Siddha system of medicine to diagnose and manage health needs, practice Siddha medicine for preventive and curative purposes, and acquire skills related to primary health care. They will also be equipped to conduct research and manage Indigenous health institutions, among other competencies."
+      ]
+    },
+    {
+      "tag": "vision_mission_siddha_medicine",
+      "patterns": [
+        "What is the vision of the Faculty of Siddha Medicine?",
+        "Can you tell me the mission of the Siddha Medicine faculty?",
+        "What is the vision and mission statement of the Siddha Medicine faculty?",
+        "What are the goals of the Faculty of Siddha Medicine?"
+      ],
+      "responses": [
+        "The vision of the Faculty of Siddha Medicine is to be the center of learning scientific-based knowledge in Siddha medicine. The mission is to produce efficient and effective Siddha medical graduates with self-esteem to practice Siddha medicine."
+      ]
+    },
+    {
+      "tag": "course_information_siddha_medicine",
+      "patterns": [
+        "What is the course information for the Siddha Medicine degree?",
+        "Can you provide details on the BSMS program?",
+        "Tell me about the courses in the Faculty of Siddha Medicine.",
+        "What subjects are covered in the Siddha Medicine program?"
+      ],
+      "responses": [
+        "The BSMS program begins with an orientation and covers a wide range of subjects including Anatomy, Physiology, Biochemistry, Siddha Philosophy, Siddha Pharmacology, Community Medicine, Forensic Medicine, Pediatrics, Gynecology, and Surgery, among others. The curriculum is designed to meet the demands of the current world with a scientific approach to Siddha Medicine."
+      ]
+    },
+    {
+      "tag": "credits_siddha_medicine",
+      "patterns": [
+        "How many credits are required for the Siddha Medicine degree?",
+        "What is the total number of credits in the BSMS program?",
+        "How many credits do I need to graduate in Siddha Medicine?",
+        "What is the credit requirement for the Siddha Medicine degree?"
+      ],
+      "responses": [
+        "Students must complete a total of 199 credits over the five years of study to be eligible for the Bachelor of Siddha Medicine and Surgery (BSMS) degree."
+      ]
+    },
+    {
+      "tag": "course_structure_siddha_medicine",
+      "patterns": [
+        "What is the course structure of the Siddha Medicine degree?",
+        "Can you provide an outline of the BSMS program?",
+        "What are the core subjects for the Siddha Medicine degree?",
+        "Tell me about the course modules in the Siddha Medicine program."
+      ],
+      "responses": [
+        "The BSMS degree is structured into 10 semesters over five years. It includes subjects such as Anatomy, Physiology, Biochemistry, Pharmacology, Community Medicine, Forensic Medicine, Pediatrics, Gynecology, and Surgery. Each semester consists of both theory and practical components, with the duration of each semester being 15 weeks."
+      ]
+    },
+    {
+      "tag": "examination_structure_siddha_medicine",
+      "patterns": [
+        "What is the examination structure for the Siddha Medicine degree?",
+        "How are the exams conducted in the BSMS program?",
+        "What is the exam pattern for Siddha Medicine students?",
+        "How are the assessments structured in the Siddha Medicine program?"
+      ],
+      "responses": [
+        "The examination structure includes in-course assessments and end-semester examinations. In-course assessments are conducted for each module, and students must attend all of them. The final semester exams include multiple components such as MCQs, essays, viva voce, practical examinations (OSPE), and clinical examinations (OSCE). The evaluation methodology includes theory, practicals, group discussions, and clinical work."
+      ]
+    },
+    {
+      "tag": "gpa_calculation_siddha_medicine",
+      "patterns": [
+        "How is GPA calculated in the Siddha Medicine degree?",
+        "What is the formula for GPA calculation in the BSMS program?",
+        "How do you calculate GPA in the Siddha Medicine degree?",
+        "Can you explain the GPA calculation method for Siddha Medicine students?"
+      ],
+      "responses": [
+        "The GPA is calculated using the formula: GPA = (Sum of (credits × grade point value)) / Total credits. The overall GPA (OGPA) for the degree program is the weighted average of the GPAs for the first, second, third, fourth, and fifth years of study. The grade points range from 4.00 for an A+ (85-100%) to 0.00 for an E (below 30%)."
+      ]
+    },
+    {
+      "tag": "vision_mission_fcbs",
+      "patterns": [
+        "What is the vision of the Faculty of Communication and Business Studies?",
+        "Can you tell me the mission of the FCBS?",
+        "What is the mission and vision of the Faculty of Communication and Business Studies?",
+        "How does FCBS define its mission?",
+        "Vision and mission of FCBS?"
+      ],
+      "responses": [
+        "The vision of the Faculty of Communication and Business Studies (FCBS) is to become a world-recognized educational and research institute with academic excellence and human values. Its mission is to create, transform, and disseminate knowledge through teaching, learning, and research to meet new challenges while upholding human values for the sustainable development of the region, nation, and globe."
+      ]
+    },
+    {
+      "tag": "dean_fcbs",
+      "patterns": [
+        "Who is the Dean of the Faculty of Communication and Business Studies?",
+        "Can you tell me the name of the Dean of FCBS?",
+        "Who leads the Faculty of Communication and Business Studies?",
+        "Who is the current Dean at FCBS?",
+        "Dean of Faculty of Communication and Business Studies?"
+      ],
+      "responses": [
+        "The Dean of the Faculty of Communication and Business Studies is Mr. T. Baskar, who holds an MBA (PIM.USJ), a CTHE (UoC), and a BBA (Special)(Hons)."
+      ]
+    },
+    {
+      "tag": "degree_programmes_fcbs",
+      "patterns": [
+        "What degree programs are offered at the Faculty of Communication and Business Studies?",
+        "Can you list the degree programs in FCBS?",
+        "Which degrees are available in the Faculty of Communication and Business Studies?",
+        "Degree programs in Faculty of Communication and Business Studies?",
+        "What are the courses offered in FCBS?"
+      ],
+      "responses": [
+        "The Faculty of Communication and Business Studies offers the following degree programs:\n1. Bachelor of Science in Management\n2. Bachelor of Arts in Languages\n3. Bachelor of Arts in Communication Studies."
+      ]
+    },
+    {
+      "tag": "departments_fcbs",
+      "patterns": [
+        "What are the departments in the Faculty of Communication and Business Studies?",
+        "Can you name the departments in FCBS?",
+        "How many departments are there in FCBS?",
+        "Departments in Faculty of Communication and Business Studies?",
+        "Which departments are part of FCBS?"
+      ],
+      "responses": [
+        "The Faculty of Communication and Business Studies has three departments:\n1. Department of Business and Management Studies\n2. Department of Languages and Communication Studies\n3. Department of Information Technology."
+      ]
+    },
+    {
+      "tag": "head_bms",
+      "patterns": [
+        "Who is the Head of the Department of Business and Management Studies?",
+        "Can you tell me who leads the Department of Business and Management Studies?",
+        "Who is in charge of the Business and Management Studies department?",
+        "Head of the Department of Business and Management Studies?",
+        "Who is the head of BMS at FCBS?"
+      ],
+      "responses": [
+        "The Head of the Department of Business and Management Studies is Ms. V. Leninkumar, a Senior Lecturer (Grade II) with an M.Sc. in Management (USJP) and a BBA (EUSL)."
+      ]
+    },
+    {
+      "tag": "academic_staff_bms",
+      "patterns": [
+        "Who are the academic staff of the Department of Business and Management Studies?",
+        "Can you list the lecturers in the Department of Business and Management Studies?",
+        "Which lecturers are teaching in the Business and Management Studies department?",
+        "Academic staff of BMS department?",
+        "Who are the faculty members in Business and Management Studies?",
+        "academic staff bms"
+      ],
+      "responses": [
+        "The academic staff of the Department of Business and Management Studies includes:\n1. Ms. V. Leninkumar (Senior Lecturer)\n2. Mr. T. Baskar (Senior Lecturer)\n3. Ms. S. Priyadharsan (Senior Lecturer)\n4. Ms. D. Ravichandran (Senior Lecturer)\n5. Ms. A. Raveenther (Senior Lecturer) and more."
+      ]
+    },
+    {
+      "tag": "bsc_management_general_info",
+      "patterns": [
+        "Can you tell me about the Bachelor of Science in Management (General) Degree Programme?",
+        "What is the duration of the B.Sc. in Management degree?",
+        "How long does it take to complete the general degree in management?",
+        "Information about B.Sc. Management General degree?",
+        "Details of the B.Sc. in Management (General) Degree?"
+      ],
+      "responses": [
+        "The Bachelor of Science in Management (General) Degree Programme is a three-year program consisting of common and optional courses. It covers areas such as management, finance, and human resources, with a total credit requirement of 90 credits."
+      ]
+    },
+    {
+      "tag": "degree_programmes_bms",
+      "patterns": [
+        "What degree programs are offered by the Department of Business and Management Studies?",
+        "Can you list the degree programs in the BMS department?",
+        "Which degrees are available in Business and Management Studies?",
+        "Degree programs in the Department of Business and Management Studies?",
+        "What are the courses offered in the BMS department?"
+      ],
+      "responses": [
+        "The Department of Business and Management Studies offers the following degree programs:\n1. Bachelor of Science in Management (General)\n2. Bachelor of Science (Honours) in Management, Marketing Management, Human Resource Management, Accounting and Finance, and Information Systems."
+      ]
+    },
+    {
+      "tag": "honours_degree_bms",
+      "patterns": [
+        "Does the Department of Business and Management Studies offer honours degrees?",
+        "What honours degrees can I pursue in the BMS department?",
+        "Are there honours degree programs in Business and Management Studies?",
+        "Honours degrees in BMS?",
+        "What are the available honours degree options in the BMS department?"
+      ],
+      "responses": [
+        "Yes, the Department of Business and Management Studies offers honours degrees in Management, Marketing Management, Human Resource Management, Accounting and Finance, and Information Systems."
+      ]
+    },
+    {
+      "tag": "requirements_honours_bms",
+      "patterns": [
+        "What are the minimum requirements to enroll in the honours degree program in Business and Management Studies?",
+        "How can I qualify for an honours degree in BMS?",
+        "What are the entry requirements for the honours degree program in BMS?",
+        "Honours degree entry requirements in Business and Management Studies?",
+        "What do I need to enter the honours degree program in BMS?"
+      ],
+      "responses": [
+        "To enroll in an honours degree program in Business and Management Studies, students must have an OGPA of 2.00 or higher in the first and second years, along with a 'C+' or better grade in three stipulated courses relevant to their specialization."
+      ]
+    },
+    {
+      "tag": "internship_bms",
+      "patterns": [
+        "Is there an internship program in the Business and Management Studies degree?",
+        "Do BMS students need to complete an internship?",
+        "What is the internship program in Business and Management Studies?",
+        "Internship requirements in BMS?",
+        "How does the internship work in Business and Management Studies?"
+      ],
+      "responses": [
+        "Yes, students in the honours degree programs of Business and Management Studies are required to complete an internship. This provides practical exposure in fields such as Management, Marketing, Human Resource Management, and more, and is a key part of the fourth-year curriculum."
+      ]
+    },
+    {
+      "tag": "award_classes_bms",
+      "patterns": [
+        "What are the award classes for the Business and Management Studies degree?",
+        "How are award classes determined in BMS?",
+        "What are the class divisions for the BMS degree?",
+        "Can I get first-class honours in Business and Management Studies?",
+        "How are degrees classified in Business and Management Studies?"
+      ],
+      "responses": [
+        "Award classes for the Business and Management Studies degree are as follows:\n1. First Class: Minimum OGPA of 3.70\n2. Second Class (Upper Division): Minimum OGPA of 3.30\n3. Second Class (Lower Division): Minimum OGPA of 3.00."
+      ]
+    },
+    {
+      "tag": "gpa_calculation_bms",
+      "patterns": [
+        "How is GPA calculated in Business and Management Studies?",
+        "What is the formula for calculating GPA in BMS?",
+        "Can you explain the GPA system in Business and Management Studies?",
+        "How to calculate GPA in BMS?",
+        "What is the GPA grading system in BMS?"
+      ],
+      "responses": [
+        "GPA is calculated by converting percentage marks into a letter grade and corresponding grade points. The formula is GPA = Σ(Ci × Gi) / ΣCi, where Ci is the credit value and Gi is the grade point."
+      ]
+    },
+  
+    {
+      "tag": "vision_mission_fcbs",
+      "patterns": [
+        "What is the vision of the Faculty of Communication and Business Studies?",
+        "Can you tell me the mission of the FCBS?",
+        "What is the mission and vision of the Faculty of Communication and Business Studies?",
+        "How does FCBS define its mission?",
+        "Vision and mission of FCBS?"
+      ],
+      "responses": [
+        "The vision of the Faculty of Communication and Business Studies (FCBS) is to become a world-recognized educational and research institute with academic excellence and human values. Its mission is to create, transform, and disseminate knowledge through teaching, learning, and research to meet new challenges while upholding human values for the sustainable development of the region, nation, and globe."
+      ]
+    },
+    {
+      "tag": "dean_fcbs",
+      "patterns": [
+        "Who is the Dean of the Faculty of Communication and Business Studies?",
+        "Can you tell me the name of the Dean of FCBS?",
+        "Who leads the Faculty of Communication and Business Studies?",
+        "Who is the current Dean at FCBS?",
+        "Dean of Faculty of Communication and Business Studies?"
+      ],
+      "responses": [
+        "The Dean of the Faculty of Communication and Business Studies is Mr. T. Baskar, who holds an MBA (PIM.USJ), a CTHE (UoC), and a BBA (Special)(Hons)."
+      ]
+    },
+    {
+      "tag": "degree_programmes_fcbs",
+      "patterns": [
+        "What degree programs are offered at the Faculty of Communication and Business Studies?",
+        "Can you list the degree programs in FCBS?",
+        "Which degrees are available in the Faculty of Communication and Business Studies?",
+        "Degree programs in Faculty of Communication and Business Studies?",
+        "What are the courses offered in FCBS?"
+      ],
+      "responses": [
+        "The Faculty of Communication and Business Studies offers the following degree programs:\n1. Bachelor of Science in Management\n2. Bachelor of Arts in Languages\n3. Bachelor of Arts in Communication Studies."
+      ]
+    },
+    {
+      "tag": "departments_fcbs",
+      "patterns": [
+        "What are the departments in the Faculty of Communication and Business Studies?",
+        "Can you name the departments in FCBS?",
+        "How many departments are there in FCBS?",
+        "Departments in Faculty of Communication and Business Studies?",
+        "Which departments are part of FCBS?"
+      ],
+      "responses": [
+        "The Faculty of Communication and Business Studies has three departments:\n1. Department of Business and Management Studies\n2. Department of Languages and Communication Studies\n3. Department of Information Technology."
+      ]
+    },
+    {
+      "tag": "head_bms",
+      "patterns": [
+        "Who is the Head of the Department of Business and Management Studies?",
+        "Can you tell me who leads the Department of Business and Management Studies?",
+        "Who is in charge of the Business and Management Studies department?",
+        "Head of the Department of Business and Management Studies?",
+        "Who is the head of BMS at FCBS?"
+      ],
+      "responses": [
+        "The Head of the Department of Business and Management Studies is Ms. V. Leninkumar, a Senior Lecturer (Grade II) with an M.Sc. in Management (USJP) and a BBA (EUSL)."
+      ]
+    },
+    {
+      "tag": "academic_staff_bms",
+      "patterns": [
+        "Who are the academic staff of the Department of Business and Management Studies?",
+        "Can you list the lecturers in the Department of Business and Management Studies?",
+        "Which lecturers are teaching in the Business and Management Studies department?",
+        "Academic staff of BMS department?",
+        "Who are the faculty members in Business and Management Studies?"
+      ],
+      "responses": [
+        "The academic staff of the Department of Business and Management Studies includes:\n1. Ms. V. Leninkumar (Senior Lecturer)\n2. Mr. T. Baskar (Senior Lecturer)\n3. Ms. S. Priyadharsan (Senior Lecturer)\n4. Ms. D. Ravichandran (Senior Lecturer)\n5. Ms. A. Raveenther (Senior Lecturer) and more."
+      ]
+    },
+    {
+      "tag": "bsc_management_general_info",
+      "patterns": [
+        "Can you tell me about the Bachelor of Science in Management (General) Degree Programme?",
+        "What is the duration of the B.Sc. in Management degree?",
+        "How long does it take to complete the general degree in management?",
+        "Information about B.Sc. Management General degree?",
+        "Details of the B.Sc. in Management (General) Degree?"
+      ],
+      "responses": [
+        "The Bachelor of Science in Management (General) Degree Programme is a three-year program consisting of common and optional courses. It covers areas such as management, finance, and human resources, with a total credit requirement of 90 credits."
+      ]
+    },
+    {
+      "tag": "degree_programmes_bms",
+      "patterns": [
+        "What degree programs are offered by the Department of Business and Management Studies?",
+        "Can you list the degree programs in the BMS department?",
+        "Which degrees are available in Business and Management Studies?",
+        "Degree programs in the Department of Business and Management Studies?",
+        "What are the courses offered in the BMS department?"
+      ],
+      "responses": [
+        "The Department of Business and Management Studies offers the following degree programs:\n1. Bachelor of Science in Management (General)\n2. Bachelor of Science (Honours) in Management, Marketing Management, Human Resource Management, Accounting and Finance, and Information Systems."
+      ]
+    },
+    {
+      "tag": "honours_degree_bms",
+      "patterns": [
+        "Does the Department of Business and Management Studies offer honours degrees?",
+        "What honours degrees can I pursue in the BMS department?",
+        "Are there honours degree programs in Business and Management Studies?",
+        "Honours degrees in BMS?",
+        "What are the available honours degree options in the BMS department?"
+      ],
+      "responses": [
+        "Yes, the Department of Business and Management Studies offers honours degrees in Management, Marketing Management, Human Resource Management, Accounting and Finance, and Information Systems."
+      ]
+    },
+    {
+      "tag": "requirements_honours_bms",
+      "patterns": [
+        "What are the minimum requirements to enroll in the honours degree program in Business and Management Studies?",
+        "How can I qualify for an honours degree in BMS?",
+        "What are the entry requirements for the honours degree program in BMS?",
+        "Honours degree entry requirements in Business and Management Studies?",
+        "What do I need to enter the honours degree program in BMS?"
+      ],
+      "responses": [
+        "To enroll in an honours degree program in Business and Management Studies, students must have an OGPA of 2.00 or higher in the first and second years, along with a 'C+' or better grade in three stipulated courses relevant to their specialization."
+      ]
+    },
+    {
+      "tag": "internship_bms",
+      "patterns": [
+        "Is there an internship program in the Business and Management Studies degree?",
+        "Do BMS students need to complete an internship?",
+        "What is the internship program in Business and Management Studies?",
+        "Internship requirements in BMS?",
+        "How does the internship work in Business and Management Studies?"
+      ],
+      "responses": [
+        "Yes, students in the honours degree programs of Business and Management Studies are required to complete an internship. This provides practical exposure in fields such as Management, Marketing, Human Resource Management, and more, and is a key part of the fourth-year curriculum."
+      ]
+    },
+    {
+      "tag": "award_classes_bms",
+      "patterns": [
+        "What are the award classes for the Business and Management Studies degree?",
+        "How are award classes determined in BMS?",
+        "What are the class divisions for the BMS degree?",
+        "Can I get first-class honours in Business and Management Studies?",
+        "How are degrees classified in Business and Management Studies?"
+      ],
+      "responses": [
+        "Award classes for the Business and Management Studies degree are as follows:\n1. First Class: Minimum OGPA of 3.70\n2. Second Class (Upper Division): Minimum OGPA of 3.30\n3. Second Class (Lower Division): Minimum OGPA of 3.00."
+      ]
+    },
+    {
+      "tag": "gpa_calculation_bms",
+      "patterns": [
+        "How is GPA calculated in Business and Management Studies?",
+        "What is the formula for calculating GPA in BMS?",
+        "Can you explain the GPA system in Business and Management Studies?",
+        "How to calculate GPA in BMS?",
+        "What is the GPA grading system in BMS?"
+      ],
+      "responses": [
+        "GPA is calculated by converting percentage marks into a letter grade and corresponding grade points. The formula is GPA = Σ(Ci × Gi) / ΣCi, where Ci is the credit value and Gi is the grade point."
+      ]
+    },
+    {
+      "tag": "head_lcs",
+      "patterns": [
+        "Who is the Head of the Department of Languages and Communication Studies?",
+        "Can you tell me who leads the Department of Languages and Communication Studies?",
+        "Who is in charge of the Languages and Communication Studies department?",
+        "Head of the Department of Languages and Communication Studies?"
+      ],
+      "responses": [
+        "The Head of the Department of Languages and Communication Studies is Dr. G. A. P. K. Ganegoda, a Senior Lecturer with a Ph.D. from Swinburne University of Technology, Australia, and an M.Phil. from the University of Peradeniya. He also holds a Bachelor of Arts (Special) in Communication from Trincomalee Campus, Eastern University Sri Lanka."
+      ]
+    },
+    {
+      "tag": "academic_staff_lcs",
+      "patterns": [
+        "Who are the faculty members in the Department of Languages and Communication Studies?",
+        "Can you name the staff members teaching in LCS?",
+        "What qualifications do the lecturers in the Languages and Communication Studies department have?"
+      ],
+      "responses": [
+        "The academic staff of the Department of Languages and Communication Studies includes experienced lecturers such as Dr. V. J. Naveenraj and Dr. Nirupa Sarath Jayasundara."
+      ]
+    },
+    {
+      "tag": "degree_programmes_lcs",
+      "patterns": [
+        "What undergraduate programs are available in the Department of Languages and Communication Studies?",
+        "Can you list the degrees offered by LCS?",
+        "What types of degrees can students pursue in Languages and Communication Studies?"
+      ],
+      "responses": [
+        "The Department of Languages and Communication Studies offers two main degree programs: the Bachelor of Arts in Communication Studies and the Bachelor of Arts in Languages."
+      ]
+    },
+    {
+      "tag": "honours_degree_lcs",
+      "patterns": [
+        "Are honours degrees available in the Languages and Communication Studies department?",
+        "What types of honours programs does LCS offer?",
+        "Can I pursue an honours degree in Languages?"
+      ],
+      "responses": [
+        "Yes, the Department of Languages and Communication Studies offers Honours Degrees in both Communication Studies and Languages."
+      ]
+    },
+    {
+      "tag": "requirements_honours_lcs",
+      "patterns": [
+        "What are the entry requirements for the honours degree program in Languages and Communication Studies?",
+        "How can I qualify for an honours degree in LCS?",
+        "What criteria must be met to enroll in the honours program in Languages?"
+      ],
+      "responses": [
+        "To qualify for the Honours Degree program in Languages, students must achieve a minimum Weighted GPA of 3.3 and successfully complete all major courses."
+      ]
+    },
+    {
+      "tag": "internship_lcs",
+      "patterns": [
+        "Is an internship required for students in Languages and Communication Studies?",
+        "What does the internship entail for LCS students?",
+        "How long is the internship for Languages and Communication Studies?"
+      ],
+      "responses": [
+        "Yes, the Honours Degree program in Languages and Communication Studies requires students to complete an internship, providing practical experience in relevant fields."
+      ]
+    },
+    {
+      "tag": "gpa_calculation_lcs",
+      "patterns": [
+        "How is GPA determined in Languages and Communication Studies?",
+        "What is the grading system used for LCS students?",
+        "How can students calculate their GPA in LCS?"
+      ],
+      "responses": [
+        "GPA is calculated based on the grades earned in courses, requiring a minimum GPA of 2.0 for a General Degree and 3.3 for Honours."
+      ]
+    },
+    {
+      "tag": "award_classes_lcs",
+      "patterns": [
+        "What classification system is used for Languages and Communication Studies degrees?",
+        "How are award classes determined in LCS?",
+        "What are the different award classes for LCS degrees?"
+      ],
+      "responses": [
+        "The award classes for the Languages and Communication Studies degree are classified as follows:\n1. First Class: Minimum Weighted GPA of 3.70\n2. Second Class (Upper Division): Minimum Weighted GPA of 3.30\n3. Second Class (Lower Division): Minimum Weighted GPA of 3.00."
+      ]
+    },
+    {
+      "tag": "degree_duration_lcs",
+      "patterns": [
+        "What is the duration of the Languages and Communication Studies degree programs?",
+        "How long does it take to complete the Languages degree?",
+        "Duration of Languages degree?",
+        "How many years is the Languages and Communication Studies degree?",
+        "Length of the Languages degree program?"
+      ],
+      "responses": [
+        "The Department of Languages and Communication Studies offers a three-year General Degree and a four-year Honours Degree program."
+      ]
+    },
+    {
+      "tag": "degree_duration_bms",
+      "patterns": [
+        "What is the duration of the Business and Management Studies degree programs?",
+        "How long does it take to complete the BMS degree?",
+        "Duration of BMS degree?",
+        "How many years is the Business and Management Studies degree?",
+        "Length of the BMS degree program?"
+      ],
+      "responses": [
+        "The Department of Business and Management Studies offers a three-year General Degree and a four-year Honours Degree program."
+      ]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": [     
+        "Can final year students get accommodation?",
+        "Final year hostels"   
+      ],
+      "responses": [   
+        "The total number of hostels in Trincomalee campus is 05. There are 3 hostels for girls.\nThey are New Sarasavi Girls Hostel, Old Sarasavi Girls Hostel and Marble Girls Hostel. There are 2 hostels for boys namely Nilaweli Boys Hostel and Sarasavi Boys.\nThere are several rules and regulations in providing accommodation facilities for students.\nAccommodation facilities are provided for first year students and final year students only.\nOther students have to come from the bodime houses outside the campus for their studies.\nGirls are not allowed to go out of hostels after 7 pm."    
+      ]
+    },
+    {
+      "tag": "student_id_valid_period",
+      "patterns": [
+        "How long is the student ID card valid?",
+        "Validation of Student id"    
+      ],
+      "responses": [
+        "The student ID card is valid for four years."     
+      ]
+    },
+    {
+      "tag": "student_id_collect",
+      "patterns": [
+        "Where can students collect their ID card?",
+        "How to collect student id"   
+      ],
+      "responses": [
+        "Students can collect their ID card from the student affairs branch."
+      ]
+    },
+    {
+      "tag": "library_use_hours",
+      "patterns": [
+        "What are the library's opening hours?"     
+      ],
+      "responses": [
+        "The library is open Monday to Friday from 08.30 am to 04.30 pm and is closed on Sundays and public holidays."    
+      ]
+    },
+    {
+      "tag": "library_membership",
+      "patterns": [        
+        "How can I register for library membership?"      
+      ],
+      "responses": [     
+        "You need to fill out a registration form and hand it over to the librarian."     
+      ]
+    },
+    {
+      "tag": "library_renew",
+      "patterns": [      
+        "How often do undergraduates need to renew their library membership?"
+      ],
+      "responses": [      
+        "Undergraduates need to renew their membership annually."
+      ]
+    },
+    {
+      "tag": "library_services",
+      "patterns": [
+        "What services does the library offer?"
+      ],
+      "responses": [
+        "The library offers lending, reference materials, scheduled reference, periodicals, a discussion area, a museum, and photocopy facilities."
+      ]
+    },
+    {
+      "tag": "mahapola_bursary",
+      "patterns": [
+        "mahapola/bursary",
+        "What is the Mahapola and bursary Scholarship?"     
+      ],
+      "responses": [
+        "The government makes a payment for the students who hold the university mandate. They are known as Mahapola Scholarship and Bursary.\nMahapola  is given by UGC and Bursary is given through the University.\nParents' income is strictly considered when selecting students for Mahapola . When registering to the university, you need to fill the relevant forms.\nMost of the time, all students who have lost the Mahapola will get the bursary. But if the child is a child of high income parents, there is a possibility of losing the both scholarships.\nMahapola and bursary are given only for 10 months in a year. The remaining two months are not given because the students get 2 months of leave.\nMahapola is given at the rate of Rs.5000/= per month and bursary at the rate of Rs.4000/= per month."     
+      ]
+    },
+    {
+      "tag": "indoor_outdoor_games",
+      "patterns": [
+        "What outdoor games are offered?",
+        "What indoor games are offered?",
+        "Playing games in campus"        
+      ],
+      "responses": [
+        "Outdoor games include cricket, volleyball, netball, football, kabadi, elle, hockey, and athletics.\nIndoor games include badminton, carrom, chess, table tennis, martial arts, and boxing."
+      ]
+    },
+    {
+      "tag": "sports_info",
+      "patterns": [
+        "Sports in campus",
+        "How about sports in campus?",
+        "Information about sports"
+      ],
+      "responses": [
+        "There is a huge place for sports in our campus. There are 2 playgrounds and a sports unit.\nIn our campus,\nOutdoor games:\nCricket(Soft and Hard), Volleyball, Netball, Football, Kabadi Elle, Hockey and Athletic games is run with coaches.\nIndoor games:\nBadminton, Carrom, Chess, Table tennis, Martial art, Boxing\nPhysical Education unit organizes the following activities in our campus.\n*Inter faculty Fresher’s championship\n*Inter Faculty championship\n*(Invitees /Open) university games\n\nSports coordinator – Mr. Ushakanthan.\nSub sports council president – Brother Harsha Priyamantha.\nPhysical education unit coordinator - Mr. P. Krishnaprabu"
+      ]
+    },
+    {
+      "tag": "bus_time",
+      "patterns": [     
+        "What are the bus service timings from Trincomalee to the campus?",
+        "What is the bus schedule from Trincomalee to Konesapuri?",
+        "Bus time table",
+        "Bus schedule",
+        "Bus times"
+      ],
+      "responses": [      
+        "Bus schedule:\n\n**Trincomalee to Konesapuri:**\n- 7.15 am\n- 8.00 am\n- 10.00 am\n- 11.00 am\n- 12.00 pm\n- 1.00 pm\n- 2.00 pm\n- 3.00 pm\n- 5.00 pm\n- 6.15 pm\n\n**Konesapuri to Trincomalee:**\n- 6.20 am\n- 6.45 am\n- 7.30 am\n- 8.30 am\n- 9.40 am\n- 10.40 am\n- 12.40 pm\n- 3.40 pm\n- 4.30 pm"
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [   
+        "How about canteen?",
+        "what are the Foods in campus canteen",  
+        "What are the canteens in campus area?"
+      ],
+      "responses": [     
+        "There is a main canteen in the campus. Students can get whatever food they want from them.\nThe price of a meals(Rice and curry):\nBreakfast – Rs.70.00\nLunch – Rs.80.00\nDinner – Rs.100.00\nApart from rice, other foods are also available.\nYou can order foods breakfast, lunch and dinner in main canteen to your hostels. Order foods before meals.\nApart from the main canteen, a small canteen is also maintained near the nilaweli boys hostel.\nA new canteen is also to be opened in the newly constructed Faculty of Mass Communication and Business Studies building."
+      ]
+    },
+    {
+      "tag": "medical_center_open_time",
+      "patterns": [     
+        "When is the medical center open?"
+      ],
+      "responses": [
+        "There is a medical center in the campus to get medicine for students' diseases.\nMedicines are administered by a qualified doctor.\nOpen 5 days a week from 2pm to 4pm.\nIt also provides the necessary medical reports for the students."
+      ]
+    },
+    {
+      "tag": "free_wifi",
+      "patterns": [
+        "Is there Wi-Fi available on campus?",
+        "How to access free wifi in campus?"    
+      ],
+      "responses": [
+        "Yes, Wi-Fi is available for students.All students have any time free Wi-Fi to use for academic works. First you want to fill the application to request Wi-Fi. Then send email to you with the Wi-Fi username and password to connect the network. You can’t use some web sites (Facebook) in campus Wi-Fi."     
+      ]
+    },
+    {
+      "tag": "it_services",
+      "patterns": [    
+        "What services does the IT department provide?",
+        "It branch",
+        "Computer lab"
+      ],
+      "responses": [      
+        "In our campus has IT branch and it has a computer lab. So, we can use computer lab at 8.00 am to 4.00 pm. If you have any issue, then meet the lab assistant."
+      ]
+    },
+    {
+      "tag": "activities_clubs",
+      "patterns": [
+        "What types of clubs are available on campus?"      
+      ],
+      "responses": [
+        "There are several clubs, including cultural, sports, and academic clubs."    
+      ]
+    },
+      {
+        "tag": "hostel_facilities",
+        "patterns": [
+          "What are the hostel facilities available?",
+          "How many hostels are there on the Trincomalee campus?",
+          "Can you tell me about the hostels for boys and girls?",
+          "What are the rules for staying in hostels?",
+          "Are first-year students provided with hostel accommodation?"
+        ],
+        "responses": [
+          "The total number of hostels in Trincomalee campus is 05. There are 3 hostels for girls: New Sarasavi Girls Hostel, Old Sarasavi Girls Hostel, and Marble Girls Hostel. For boys, there are 2 hostels: Nilaweli Boys Hostel and Sarasavi Boys. Accommodation facilities are provided for first-year students and final-year students only. Other students must find accommodation outside the campus."
+        ]
+      },
+      {
+        "tag": "student_id",
+        "patterns": [
+          "How can I get my student ID?",
+          "What is the validity period of the student ID?",
+          "When can I collect my student ID card?",
+          "Do I need a student ID for examinations?",
+          "What is a student ID used for?"
+        ],
+        "responses": [
+          "All students will be given an ID card valid for four years. You can collect your student ID from the Student Affairs branch within 3 or 4 months of your arrival at the university. It is used for all examinations and other university functions."
+        ]
+      },
+      {
+        "tag": "library",
+        "patterns": [
+          "What are the library hours?",
+          "Who can use the library?",
+          "What services does the library offer?",
+          "How do I become a member of the library?",
+          "What are the rules for using the library?"
+        ],
+        "responses": [
+          "Anyone studying at our campus can use the library. To register, you must fill out a form and hand it to the librarian. The library is open Monday to Friday from 08:30 am to 04:30 pm, and is closed on Sundays and public holidays. Library membership is available for undergraduates registered at Trincomalee Campus."
+        ]
+      },
+      {
+        "tag": "mahapola_bursary",
+        "patterns": [
+          "What is the Mahapola scholarship?",
+          "How can I apply for a bursary?",
+          "What are the eligibility criteria for Mahapola?",
+          "What is the amount of the Mahapola scholarship?",
+          "How long is the Mahapola and bursary support provided?"
+        ],
+        "responses": [
+          "The Mahapola scholarship and bursary are financial aids provided to students. Mahapola is given by the UGC, while the bursary is provided through the university. The selection considers parents' income. Mahapola is given at the rate of Rs.5000 per month, and the bursary at Rs.4000 per month for 10 months a year."
+        ]
+      },
+      {
+        "tag": "campus_location",
+        "patterns": [
+          "Where is the Trincomalee campus located?",
+          "How do I get to the Trincomalee campus?",
+          "What is the distance from Trincomalee town to the campus?",
+          "Are there any bus services to the campus?",
+          "What is the bus schedule from Trincomalee to Konesapuri?"
+        ],
+        "responses": [
+          "The Trincomalee campus is located in the village of Konesapuri towards Nilaweli, about 11 km from Trincomalee town. There are bus services from the campus bus stop to Trincomalee Bus Stand with a schedule throughout the day."
+        ]
+      },
+      {
+        "tag": "canteen",
+        "patterns": [
+          "What food options are available in the campus canteen?",
+          "Can I order food from the canteen to my hostel?",
+          "Are there any other canteens on campus?",
+          "What is the price of a meal in the canteen?",
+          "Is there a canteen near the boys' hostel?"
+        ],
+        "responses": [
+          "The main canteen on campus provides various food options, with meals priced at Rs.100. You can order food for breakfast, lunch, and dinner to your hostel. Additionally, a small canteen is located near the Nilaweli boys' hostel."
+        ]
+      },
+      {
+        "tag": "it_service",
+        "patterns": [
+          "What IT services are available at the campus?",
+          "Is there a computer lab I can use?",
+          "How do I access Wi-Fi on campus?",
+          "What are the hours for the computer lab?",
+          "Can I get assistance with IT issues?"
+        ],
+        "responses": [
+          "The campus has an IT branch with a computer lab available from 8:00 am to 4:00 pm. All students can access free Wi-Fi for academic work after filling out an application. Some websites, like Facebook, are restricted on campus Wi-Fi."
+        ]
+      },
+      {
+        "tag": "general_admission",
+        "patterns": [
+          "What documents do I need for general admission?",
+          "How do I register after being selected for the campus?",
+          "What forms must be completed for admission?",
+          "What is the process for collecting documents for admission?",
+          "Is there a deadline for submitting admission documents?",
+          "general admission"
+        ],
+        "responses": [
+          "After selected you to Trincomalee campus, You need to register on web site what you given link from email and collect some documents.\n1. Duly completed Personal information form for registration of new entrant to the Trincomalee Campus.\n2. A photocopy of the U.G.C. Selection letter certified by the principal of the school or Justice of Peace.\n3. Duly completed Application form for residential facilities.\n4. Duly completed application form for the Student Identity Card.\n5. Duly completed Declaration form of guidelines to be introduced to curb the menace of Ragging in the Universities.\n6. Duly completed Code of Conduct in respect of student residential facilities.\n7. Eight copies of 4×5cm size recently take color photograph of the applicant.\n8. Duly filled Paying in Voucher.( Registration Number & Course must be mentioned)\n9. Certified photo copy of the People’s Bank /Bank of Ceylon’s Account Book\n10. Original of the Birth Certificate Copy\n11. Original of the Affidavit / Certificate of Samanera/ Marriage Certificate/ Amended Birth Certificate, if there is a difference in the name and one (01) Photocopy certified by the Justice of Peace or Principal of the School.(If any)\n12. A Certified copy of the G.C.E (O/L) Certificate issued by the Department of Examinations/Results Sheet issued by the principal of the School.\n13. A Certified copy of the G.C.E(A/L) Certificate issued by the Department of Examinations/\nResults Sheet issued by the Principal of the School\n14. Letter of cancellation of registration if the applicant is registered for a full time course In this university or at any other university/ campus/ Institute (Please refer the section\n1.7 Of the U.G.C Admission Hand book (2021/2022) (If any)\n15. Original and certified copy of the School Leaving certificate\n16. A copy of the national identity card certified by Justice of peace or Principal of the School.\n17. Duly endorsed bank receipt of the payment of Registration and other fees.(Payment should be made according to the relevant fees stated in Paying in Voucher).\nYou should bring above documents to campus when mentioned date from email or letter. After you arrived to the campus then you have register in department.\nIf you selected to course in special admission (2nd, 3rd and other rounds) then you want follow above instructions"
+        ]
+      }
+
+    
+  ]
+}
