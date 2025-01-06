@@ -15,7 +15,7 @@ from keras.callbacks import EarlyStopping  # Import early stopping
 lemmatizer = WordNetLemmatizer()
 
 # Load intents file
-data_file = open('data/augmented_intents.json').read()
+data_file = open('data/augmented_intents_new.json').read()
 intents = json.loads(data_file)
 
 # Download necessary NLTK data
@@ -104,8 +104,8 @@ history = model.fit(
 )
 
 # Save the model and data structures
-model.save('models/chatbot_model.h5')
-pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y}, open('training_data.pkl', 'wb'))
+model.save('models/chatbot_model_new.h5')
+pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y}, open('data/training_data_new.pkl', 'wb'))
 
 print("Model training complete.")
 

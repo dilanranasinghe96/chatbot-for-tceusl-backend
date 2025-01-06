@@ -27,7 +27,7 @@ def augment_pattern(pattern):
     return augmented_patterns
 
 # Load the intents JSON file
-with open('data/intents.json', 'r') as file:
+with open('data/intents_new.json', 'r') as file:
     intents = json.load(file)
 
 # Augment the dataset
@@ -53,7 +53,7 @@ for intent in intents['intents']:
     augmented_intents['intents'].append(augmented_intent)
 
 # Save the augmented intents back to a new JSON file
-with open('data/augmented_intents.json', 'w') as outfile:
+with open('data/augmented_intents_new.json', 'w') as outfile:
     json.dump(augmented_intents, outfile, indent=4)
 
-print("Dataset augmentation complete. Augmented dataset saved as 'augmented_intents.json'")
+print("Dataset augmentation complete. Augmented dataset saved as 'augmented_intents_new.json'")

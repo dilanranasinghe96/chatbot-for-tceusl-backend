@@ -94,7 +94,7 @@ def save_preprocessed_data(words, classes, file_name):
 
 # Example usage
 if __name__ == "__main__":
-    intents = load_intents('data/augmented_intents.json')
+    intents = load_intents('data/augmented_intents_new.json')
     words, classes, documents = preprocess_data(intents)
-    save_preprocessed_data(words, classes, 'data/preprocessed_data.pkl')
+    save_preprocessed_data(words, classes, 'data/preprocessed_data_new.pkl')
     print("Preprocessing complete. Saved words and classes.")

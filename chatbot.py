@@ -14,10 +14,10 @@ import random  # Add this import
 lemmatizer = WordNetLemmatizer()
 
 # Load the trained model
-model = load_model('models/chatbot_model.h5')
+model = load_model('models/chatbot_model_new.h5')
 
 # Load the training data
-with open('training_data.pkl', 'rb') as f:
+with open('data/training_data_new.pkl', 'rb') as f:
     data = pickle.load(f)
 
 # Unpack the dictionary
@@ -25,7 +25,7 @@ words = data['words']
 classes = data['classes']
 
 # Load the intents file
-with open('data/augmented_intents.json') as f:
+with open('data/augmented_intents_new.json') as f:
     intents = json.load(f)
 
 def clean_up_sentence(sentence):
